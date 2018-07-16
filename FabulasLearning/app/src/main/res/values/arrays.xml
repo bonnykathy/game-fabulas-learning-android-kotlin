@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="answers_questionary_leon">
+        <item>4</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+
+
+    <string-array name="questionary_leon">
+
+        <item>Como o leão se sente em relação ao rato?</item>
+        <item>Faminto</item>
+        <item>Igual</item>
+        <item>Sonolento</item>
+        <item>Superior</item>
+
+        <item>Por que o leão não comeu o rato?</item>
+        <item>Porque não estava com fome</item>
+        <item>Porque o rato pediu</item>
+        <item>Porque o achou insignificante</item>
+        <item>Porque leões não comem ratos</item>
+
+        <item>Quando o leão foi capturado, o rato:</item>
+        <item>Não ajudou o leão</item>
+        <item>Roeu sua calda</item>
+        <item>Ajudou a libertá-lo</item>
+        <item>Pediu algo em troca da ajuda</item>
+
+        <item>Que lição podemos tirar da historinha?</item>
+        <item>Seja cauteloso e ande com atenção</item>
+        <item>Não devemos subestimar os outros</item>
+        <item>Os pequenos sempre vencem</item>
+        <item>Ratos roem redes</item>
+
+        <item>O leão, por ser maior e mais forte, subestimou o pequeno ratinho. O sentimento de superioridade do leão o fez pensar que o ratinho jamais faria diferença em sua vida. Muita vezes nós subestimamos pessoas por nos considerarmos melhores que elas,  seja porque temos maior posição social ou poder aquisitivo. Devemos valorizar todas as pessoas e entender que cada um tem papel fundamental na sociedade e que precisamos uns dos outros. Portanto, devemos ser gentis e humildes com todas as pessoas à nossa volta.
+</item>
+
+    </string-array>
+
+
+    <string-array name="answers_questionary_fox">
+        <item>3</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="questionary_fox">
+
+        <item>Por que a rapoza foi ao vinhedo?</item>
+        <item>Porque ela gosta de comer uvas</item>
+        <item>Porque estava perdida e procurava ajuda</item>
+        <item>Porque sabia que encontraria muitas uvas</item>
+        <item>Porque gosta de pegar o que não lhe pertence</item>
+
+        <item>Ao tentar pegar as uvas, a rapoza:</item>
+        <item>Conseguiu pegar as uvas</item>
+        <item>Desistiu por não conseguir pegá-las</item>
+        <item>Subiu em alguma coisa</item>
+        <item>As uvas estavam ao seu alcance</item>
+
+        <item>Como a rapoza reagiu ao perceber que não conseguiria pegar as uvas?</item>
+        <item>Ficou satisfeita</item>
+        <item>Ficou com raiva e saiu do local</item>
+        <item>Se desfez das uvas alegando que não eram boas</item>
+        <item>ficou triste e deprimida</item>
+
+        <item>Que lição podemos tirar da historinha?</item>
+        <item>O que não nos pertence é mais gostoso</item>
+        <item>Não desista de seus objetivos</item>
+        <item>Roubar não traz felicidade</item>
+        <item>Desprezar o que não se consegue conquistar é fácil</item>
+
+        <item>Quando desejamos muito uma coisa e não a conseguimos o sentimento de desprezo pode nos ocorrer como tentativa de diminuir a frustração gerada pelo fracasso. O importante é compreender que nem tudo que desejamos poderemos realizar. Todos tem altos e baixos e saber aceitar a derrota sem menosprezar o objetivo é mais meritório do que vencer e menosprezar os outros. Portanto, entenda suas limitações e seja paciente consigo mesmo.
+</item>
+
+    </string-array>
+
+
+    <string-array name="answers_questionary_mousetrap">
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="questionary_mousetrap">
+
+        <item>Qual motivo levou o fazendeiro a comprar uma ratoeira?</item>
+        <item>O fazendeiro não gosta de ratos</item>
+        <item>A esposa do fazendeiro tem medo de ratos</item>
+        <item>O fazendeiro guarda seus grãos em sacolas</item>
+        <item>Um rato estava devorando seus cereais e leguminosas</item>
+
+        <item>Ao saber sobre a ratoeira, o ratinho:</item>
+        <item>Ficou preocupado e foi avisar a todos os animais da fazenda</item>
+        <item>Ficou triste e foi chorar para a vaca</item>
+        <item>Não se importou e continou comendo os grãos</item>
+        <item>Mordeu a esposa do fazendeiro</item>
+
+        <item>Os animais da fazenda ao saberam da ratoeira:</item>
+        <item>Ficaram preocupados</item>
+        <item>Não se importaram</item>
+        <item>Tentaram alcamar o ratinho</item>
+        <item>Fugiram da fazenda</item>
+
+        <item>Por que os animais ignoraram o ratinho?</item>
+        <item>Porque eles estavam muito ocupados</item>
+        <item>Porque o rato os ofendeu</item>
+        <item>Porque ratoeiras só pegam ratos</item>
+        <item>Porque o fazendeiro é vegetariano</item>
+
+        <item>Durante a noite, o que a ratoeira pegou?</item>
+        <item>O pé da esposa do fazedeiro</item>
+        <item>Um rato</item>
+        <item>Uma cobra</item>
+        <item>Não pegou nada</item>
+
+        <item>O que aconteceu com a esposa do fazendeiro?</item>
+        <item>Se assustou com o som da ratoeira</item>
+        <item>Matou a cobra que estava presa pela ratoeira</item>
+        <item>Ela se assustou ao ver a cobra</item>
+        <item>Foi picada pela cobra</item>
+
+        <item>O que aconteceu com a esposa do fazendeiro após a picada?</item>
+        <item>Ficou sangada</item>
+        <item>Adoeceu e faleceu</item>
+        <item>Perdeu a visão</item>
+        <item>Não precisou de cuidados médicos</item>
+
+        <item>Qual a principal consequência da doença e morte da esposa?</item>
+        <item>O fazendeiro precisou sacrificar seus animais</item>
+        <item>O fazendeiro ficou viúvo e agora precisará de uma nova esposa</item>
+        <item>O fazendeiro ficou muito triste pela morte de sua esposa</item>
+        <item>O fazendeiro precisá comprar novos animais</item>
+
+        <item>Que lição podemos tirar dessa história?</item>
+        <item>Ratoreiras também pegam cobras</item>
+        <item>O problema de um pode ser o problema dos outros</item>
+        <item>Não julgue a armadilha pelo seu tamanho</item>
+        <item>Fazendeiros comem carne</item>
+
+        <item>Quando alguém disser que está com problemas, não ignore, reflita sobre sua situação e tente ajudar da maneira que puder. Às vezes o problema de alguém pode ser seu problema também. Portanto, seja amigável e faça sua parte para diminuir o sofrimento dos outros.
+</item>
+
+    </string-array>
+
+    <string-array name="answers_questionary_travlers">
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="questionary_travelers">
+
+        <item>O que aconteceu quando os dois viajantes avistaram o urso?</item>
+        <item>Ficaram aterrorizados</item>
+        <item>Caíram no choro</item>
+        <item>Não se preocuparam</item>
+        <item>Seguiram o urso</item>
+
+        <item>Qual a atitude dos viajantes para escaparem do urso?</item>
+        <item>Os dois pularam no rio e nadaram para longe</item>
+        <item>Juntaram forças e enfretaram o urso juntos</item>
+        <item>Um subiu numa àrvore e o outro se fingiu de morto</item>
+        <item>Correram em diferções diferentes para despistar o urso</item>
+
+        <item>Por que um dos viajante resolveu fingir-se de morto?</item>
+        <item>Porque ursos não comem pessoas mortas</item>
+        <item>Porque o outro viajante iria pular em cima dele</item>
+        <item>Porque o urso não veria o viajante</item>
+        <item>Porque foi deixado sozinho e essa era a única chance de sobreviver</item>
+
+        <item>O que fez o urso ao encontrar o viajante deitado?</item>
+        <item>Mordeu-lhe o braço</item>
+        <item>Cheirou sua orelha</item>
+        <item>Pisou em cima de seu peito</item>
+        <item>Dormiu ao seu lado</item>
+
+        <item>Qual o sentimento do viajante que fingiu-se de morto após o urso ter ido embora?</item>
+        <item>Feliz por estar vivo</item>
+        <item>Feliz pelo amigo estar vivo</item>
+        <item>Raiva por ter sido abandonado</item>
+        <item>Raiva por não ter derrotado o urso</item>
+
+        <item>Que lição podemos tirar dessa historinha?</item>
+        <item>Cuidado com as amizades</item>
+        <item>Ursos não comem carne</item>
+        <item>Viajantes devem andar em grupos</item>
+        <item>Melhor ser amigo de ursos</item>
+
+
+        <item>Amigos de verdade cuidam uns dos outros. Tome cuidado com companhias que não se preocupem com seu bem estar.
+</item>
+    </string-array>
+
+</resources>

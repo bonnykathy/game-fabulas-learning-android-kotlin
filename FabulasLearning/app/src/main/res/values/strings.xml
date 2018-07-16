@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Fabulas Learning</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="initial_chose">Escolha uma Fábula</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="how_play">Como Jogar</string>
+    <string name="about">Sobre</string>
+
+    <string name="about_desc">O aplicativo Fabulas Learning foi desenvolvido com o objetivo de ajudar a
+        crianças a aprimorar sua interpretação de texto ao mesmo tempo que traz reflexições morais
+    baseadas em fábulas infantis.\n\nDesenvolvedor: Bonny Kathy\n UFRPE-2018</string>
+
+    <string name="how_play_desc">Selecione uma fábula no menu principal e click nos botões "anterior" e
+    "próximo" para avançar os quadrinhos. Por fiz, responda o quiz e teste suas capacidades de interpretação.</string>
+
+
+</resources>

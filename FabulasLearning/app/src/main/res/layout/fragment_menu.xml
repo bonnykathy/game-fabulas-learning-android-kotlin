@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuFragment"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/initial_chose"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        style="@style/FontLabel"
+        android:layout_weight="1"/>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnFox"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:contentDescription="TODO"
+                style="@style/ButtonMenuStyle"
+                android:background="@mipmap/fox"
+                android:tooltipText="Teste" />
+
+            <Button
+                android:id="@+id/btnLeon"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:background="@mipmap/leon"
+                style="@style/ButtonMenuStyle"
+                android:tooltipText="Teste" />
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/btnTravelers"
+                style="@style/ButtonMenuStyle"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:background="@mipmap/travelers" />
+
+
+            <Button
+                android:id="@+id/btnMousetrap"
+                style="@style/ButtonMenuStyle"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:background="@mipmap/mousetrap"/>
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <Button android:id="@+id/btnAbout"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Sobre"
+            android:textAllCaps="false"
+            android:fontFamily="casual"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            style="@style/ButtonMyDesing"
+            android:textColor="@color/button_color"/>
+
+        <Button android:id="@+id/btnHowPlay"
+            android:layout_marginTop="5dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Como Jogar"
+            android:fontFamily="casual"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            style="@style/ButtonMyDesing"
+            android:textColor="@color/button_color"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
