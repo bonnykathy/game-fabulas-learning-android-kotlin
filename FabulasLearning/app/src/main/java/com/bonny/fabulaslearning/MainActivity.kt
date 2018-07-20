@@ -3,18 +3,9 @@ package com.bonny.fabulaslearning
 import android.app.AlertDialog
 import android.app.Fragment
 import android.os.Bundle
-import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
-import android.view.Menu
-import android.view.MenuItem
-import android.widget.Toast
 import com.bonny.fabulas.MenuFragment
-import com.bonny.fabulaslearning.R
-//import com.bonny.fabulas.R.id.toolbar
 
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_main.view.*
-import kotlinx.android.synthetic.main.fragment_menu.view.*
 
 class MainActivity : AppCompatActivity() {
 

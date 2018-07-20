@@ -9,10 +9,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.ImageButton
 import com.bonny.fabulaslearning.FabulaFragment
 import com.bonny.fabulaslearning.R
+import com.bonny.fabulaslearning.R.id.btnFox
 import kotlinx.android.synthetic.main.fragment_menu.*
+
 
 /**
  * A simple [Fragment] subclass.
@@ -23,7 +24,7 @@ class MenuFragment : Fragment() {
     private var btnFox:Button? = null
     private var btnLeon:Button? = null
     private var btnMousetrap:Button? = null
-    private var btnMouseTravelrs:Button? = null
+    private var btnTravelers:Button? = null
     private var btnAbout:Button? = null
     private var btnHowPlay:Button? = null
     private var media:MediaPlayer? = null
@@ -36,17 +37,19 @@ class MenuFragment : Fragment() {
         btnLeon = view.findViewById<Button>(R.id.btnLeon)
         btnFox = view.findViewById<Button>(R.id.btnFox)
         btnMousetrap = view.findViewById<Button>(R.id.btnMousetrap)
-        btnMouseTravelrs = view.findViewById<Button>(R.id.btnTravelers)
+        btnTravelers = view.findViewById<Button>(R.id.btnTravelers)
         btnHowPlay = view.findViewById<Button>(R.id.btnHowPlay)
         btnAbout= view.findViewById<Button>(R.id.btnAbout)
 
         val action = ActionFabulaButtons()
         val actionMenu = ActionButtonsMenu()
 
-        btnFox!!.setOnClickListener(action)
+
         btnLeon!!.setOnClickListener(action)
         btnMousetrap!!.setOnClickListener(action)
-        btnMouseTravelrs!!.setOnClickListener(action)
+        btnTravelers!!.setOnClickListener(action)
+
+        btnFox!!.setOnClickListener(action)
 
         btnAbout!!.setOnClickListener(actionMenu)
         btnHowPlay!!.setOnClickListener(actionMenu)

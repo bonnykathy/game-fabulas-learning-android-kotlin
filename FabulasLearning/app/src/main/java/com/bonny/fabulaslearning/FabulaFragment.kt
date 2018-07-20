@@ -7,7 +7,6 @@ import android.media.MediaPlayer
 import android.os.Bundle
 import android.os.Handler
 import android.support.v4.app.Fragment
-import android.support.v4.view.ViewCompat.animate
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -18,6 +17,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import kotlinx.android.synthetic.main.fragment_fabula.*
 import java.io.IOException
+
 
 
 
@@ -59,7 +59,7 @@ import java.io.IOException
         txtViewTitle = view!!.findViewById<TextView>(R.id.txtViewTitle)
         txtViewTitle!!.text = title
 
-        myImageView = view!!.findViewById<ImageView>(R.id.myImageView)
+       myImageView = view!!.findViewById<ImageView>(R.id.myImageView)
 
         btnNext = view!!.findViewById<Button>(R.id.btnNext)
         btnBefore = view!!.findViewById<Button>(R.id.btnBefore)
@@ -73,21 +73,15 @@ import java.io.IOException
         loadListFabulas()
         btnBefore!!.isEnabled = false
 
-
-        Log.i("MY_LOGS","OnCreateView()")
-
         loadImage(0)
         return view
     }
 
      override fun onStart() {
         super.onStart()
-
          media = MediaPlayer.create(context,idSong)
         media!!.isLooping= true
         media!!.start()
-
-         Log.i("MY_LOGS","OnStart()")
 
     }
 
@@ -135,6 +129,7 @@ import java.io.IOException
         var stream = assets!!.open(fabulaName+ "/" + nameImg+".PNG")
         var img = Drawable.createFromStream(stream, nameImg)
         myImageView!!.setImageDrawable(img)
+
 
 
 
@@ -192,7 +187,9 @@ import java.io.IOException
 
             if (animateOut) {
                 animator = ViewAnimationUtils.createCircularReveal(myImageView, centerX, centerY, r.toFloat(), 0f)
+
                 animator.addListener(object : AnimatorListenerAdapter() {
+
                     override fun onAnimationEnd(animation: Animator) {
                         loadImage(++countImage)
                         btnBefore!!.isEnabled = true

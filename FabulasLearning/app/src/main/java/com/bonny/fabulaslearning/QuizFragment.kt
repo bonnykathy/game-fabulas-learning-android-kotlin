@@ -3,11 +3,9 @@ package com.bonny.fabulaslearning
 
 import android.app.AlertDialog
 import android.media.MediaPlayer
-import android.media.SoundPool
 import android.os.Bundle
 import android.os.Handler
 import android.support.v4.app.Fragment
-import android.util.SparseIntArray
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -18,7 +16,6 @@ import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.TextView
 import com.bonny.fabulas.MenuFragment
-import com.bonny.fabulaslearning.R
 import kotlinx.android.synthetic.main.fragment_quiz.*
 
 
@@ -31,7 +28,6 @@ class QuizFragment : Fragment() {
     private var btnSubmit: Button? = null
     private var txtViewQuestion: TextView? = null
     private var txtViewCount: TextView? = null
-    private var txtViewMoral: TextView? = null
     private var group: RadioGroup? = null
 
     private var questions: Array<String>? = null
@@ -71,9 +67,10 @@ class QuizFragment : Fragment() {
         txtViewCount = v!!.findViewById<TextView>(R.id.txtViewCount)
 
 
-
+        //ação que inicia a verificação da resposta do usuário
         btnSubmit!!.setOnClickListener(View.OnClickListener {
-            for (i in 2 until group!!.getChildCount()) {
+
+            for (i in 2 until group!!.getChildCount()) { //inicia em 2 pois a posição 0 é um TextView e 1 é um radioButton invisível
 
                 val rbtn = group!!.getChildAt(i) as RadioButton
 
@@ -99,8 +96,6 @@ class QuizFragment : Fragment() {
 
 
             if (indexAnswer == answers!!.size - 1) {
-
-
 
                 btnSubmit!!.isEnabled = false
 
@@ -146,7 +141,7 @@ class QuizFragment : Fragment() {
         txtViewCount!!.setText((++count).toString())
 
 
-        for (i in 2 until group!!.getChildCount()) { // inicia em 1 pois a posição 0 é um TextView
+        for (i in 2 until group!!.getChildCount()) { // inicia em 2 pois a posição 0 é um TextView e 1 é um radioButton invisível
 
             //indexNextQuestion++
             val rbtn = group!!.getChildAt(i) as RadioButton
@@ -167,7 +162,7 @@ class QuizFragment : Fragment() {
 
     private fun isEnableButtons(enable:Boolean){
 
-        for (i in 2 until group!!.getChildCount())  // inicia em 1 pois a posição 0 é um TextView
+        for (i in 2 until group!!.getChildCount())  // inicia em 2 pois a posição 0 é um TextView e 1 é um radioButton invisível
             (group!!.getChildAt(i) as RadioButton)!!.isEnabled = enable
 
         btnSubmit!!.isEnabled = false
